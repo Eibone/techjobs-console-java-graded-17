@@ -104,7 +104,7 @@ public class JobData {
             }
         }
         // TODO - implement this method
-        return null;
+        return matchingJobs.isEmpty() ? new ArrayList<>() : matchingJobs;
     }
 
     /**
